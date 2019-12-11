@@ -1,0 +1,4 @@
+node_modules
+/public/about static.html
+/public/help static.html
+/public/index static.html
