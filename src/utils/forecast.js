@@ -23,7 +23,7 @@ const forecast=(latitude, longitude, callback)=>{
             
             
             //})
-            callback(undefined, 'In '+body.timezone+' it is '+body.currently.icon+' and '+body.currently.temperature+' C '+' and '+body.currently.precipProbability*100+'% chance of rain')
+            callback(undefined, 'In '+body.timezone+' it is '+body.currently.icon+' and '+body.currently.temperature+' C '+' and '+body.currently.precipProbability*100+'% chance of rain and humidiy: '+body.currently.humidity)
 
         }
     })
