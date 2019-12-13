@@ -25,7 +25,7 @@ hbs.registerPartials(partialsPath)
 app.get('',(req,res)=>{
     res.render('index',{
         title: 'Weather',
-        name: 'Andrew'
+        name: 'Ibrokhim'
     })
 })
 
@@ -97,7 +97,7 @@ app.get('/help/*',(req,res)=>{
     res.render('404',{
         title: 'Eror 404',
         errorMessage: 'Help article not found', 
-        name: 'Andrew'
+        name: 'Ibaaa'
     })
 })
 
